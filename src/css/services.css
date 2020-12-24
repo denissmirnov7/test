@@ -1,0 +1,109 @@
+.services {
+  padding: 110px 0 105px;
+}
+.services__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  /* dark */
+  color: #323232;
+  margin-bottom: 50px;
+}
+.services__subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  /* grey */
+  color: #999999;
+  max-width: 730px;
+  margin: 0 auto 105px;
+}
+.services .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.services .flex-container .flex-items {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+}
+.services .flex-container .flex-items__imgblock {
+  max-width: 40px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  margin-right: 52px;
+  position: relative;
+}
+.services .flex-container .flex-items__imgblock:before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #4985FF;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services .flex-container .flex-items__imgblock:after {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services .flex-container .flex-items__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.services .flex-container .flex-items__text {
+  padding-top: 11px;
+  max-width: 222px;
+}
+.services .flex-container .flex-items__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.services .flex-container .flex-items__descr {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* grey */
+  color: #999999;
+  margin-bottom: 55px;
+}
+.services__btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 30px;
+  width: 200px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  background: #4985FF;
+  text-decoration: none;
+}
+/*# sourceMappingURL=services.css.map */

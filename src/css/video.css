@@ -1,0 +1,78 @@
+.video {
+  padding: 70px 0 0 0;
+  position: relative;
+}
+.video:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 570px;
+  background: url("../image/video/Rectangle-4.png") center/cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.video__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.video__descr {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  margin: 30px 0 70px 0;
+  color: #FFFFFF;
+}
+.video__boxes {
+  max-width: 970px;
+  max-height: 430px;
+  width: 100%;
+  height: 430px;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 10px;
+  background: url("../image/video/Rectangle 5.png") center/cover;
+}
+.video__boxes .video__btn {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 200px;
+  margin: 165px 335px;
+}
+.video__boxes .video__img {
+  max-width: 60px;
+  background: #4985FF;
+  border: none;
+  text-align: center;
+  margin: -40px 200px 20px 40px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.video__boxes .video-btn__link {
+  display: block;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: none;
+  text-align: right;
+  margin: 41px 29px 40px 21px;
+}
+.video .line {
+  border: 1px solid #E0E0E0;
+  width: 1100px;
+  margin-top: 85px;
+}
+/*# sourceMappingURL=video.css.map */

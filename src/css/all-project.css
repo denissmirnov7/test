@@ -1,0 +1,43 @@
+.all-project {
+  padding: 100px 0 130px 0;
+  background: #F6F6F8;
+}
+.all-project__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.all-project__subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+  margin: 0 auto 70px;
+}
+.all-project__link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  height: 45px;
+  text-decoration: none;
+  margin: 50px auto 0;
+}
+/*# sourceMappingURL=all-project.css.map */
